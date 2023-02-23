@@ -1,0 +1,65 @@
+.products {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.productsLoading {
+  text-align: center;
+  color: black;
+}
+.productsError {
+  text-align: center;
+  color: red;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.over {
+  padding: 1rem;
+  margin-top: -1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: #ece2f6;
+}
+.hh {
+  text-align: center;
+}
+.select {
+  text-align: right;
+  position: fixed;
+  right: 2%;
+  width: 120px;
+  height: 30px;
+  font-size: 17px;
+  color: #3c0080;
+  background-color: #ddcaf3;
+  border-radius: 2px;
+  box-shadow: 4px 4px #ad7ae8;
+}
+.label {
+  text-align: right;
+  position: fixed;
+  right: 11%;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  color: black;
+}
